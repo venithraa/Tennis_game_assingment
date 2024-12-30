@@ -1,5 +1,10 @@
 # Tennis_game_assingment
-A simple GUI-based tennis scoring system built using Python and Tkinter.
+A simple GUI-based tennis scoring system built using Python and Tkinter. </br>
+
+Tennis has a rather quirky scoring system, and to newcomers it can be a little difficult to keep track of. Your
+task is to build a Python program that displays the current score during a tennis game. The program should
+accept input from an external input source (user input, file, etc.) and then display the current tennis score.
+The program should keep accepting new scores until the user terminates the program.
 
 # Conditions 
 1) A game is won by the first player to have won at least four points in total and at least two points more
