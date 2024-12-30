@@ -1,4 +1,4 @@
-# Tennis_game_assingment
+# Tennis_game_assignment
 A simple GUI-based tennis scoring system built using Python and Tkinter. </br>
 
 Tennis has a rather quirky scoring system, and to newcomers it can be a little difficult to keep track of. Your
