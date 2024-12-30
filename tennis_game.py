@@ -62,12 +62,14 @@ class TennisGameGUI:
             p1 = int(self.player1_score.get())
             p2 = int(self.player2_score.get())
             if p1 < 0 or p2 < 0:
+                self.result_label.config(text="Result: ")
                 messagebox.showerror("Invalid Input", "Scores cannot be negative. Please enter valid non-negative integers.")
                 return
             # Display the calculated result
             result = self.display_score(p1, p2)
             self.result_label.config(text=f"Result: {result}")
         except ValueError:
+            self.result_label.config(text="Result: ")
             messagebox.showerror("Invalid Input", "Please enter valid integers for both scores.")
 
     def refresh_inputs(self):
